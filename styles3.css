@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    background-image: url(https://w.forfun.com/fetch/2a/2a92262356ce5129b7f2f51e014c6b7b.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.albums {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.albums h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.albums table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.albums th, .albums td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.albums img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5px;
+}
+/* Footer Section */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .albums h2 {
+        font-size: 1.5em;
+    }
+
+    .albums table, .albums th, .albums td {
+        font-size: 0.9em;
+    }
+
+    .albums img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
